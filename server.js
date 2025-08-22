@@ -21,8 +21,8 @@ let useDatabase = true;
 
 // Admin credentials (simple authentication)
 const ADMIN_CREDENTIALS = {
-  username: process.env.ADMIN_USERNAME || 'admin',
-  password: process.env.ADMIN_PASSWORD || 'admin'
+  username: process.env.ADMIN_USERNAME || 'website-admin',
+  password: process.env.ADMIN_PASSWORD || 'website-admin'
 };
 
 // Simple admin authentication middleware
